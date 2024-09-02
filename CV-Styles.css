@@ -1,0 +1,35 @@
+h2{
+    
+    font-family:"calibr1", sans-serif;
+    color:chocolate
+}
+.h-head{
+    
+    font-family:"calibr1", sans-serif;
+    color:chocolate
+}
+
+.h-title{
+    color:green;
+    font-family:"dancing script";
+}
+.p-write{
+    color:rgb(104, 97, 97);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+
+}
+
+
+
+#my-cat-link{
+background-color:#c7b693;
+border:2px;
+border-width: 2px;
+border-color:green;
+border-style:solid;
+margin: 20px 15px 10px 5px;
+padding: 50px 25px;
+border-radius: 20px;
+}
+

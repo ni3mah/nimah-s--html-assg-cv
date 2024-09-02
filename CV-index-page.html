@@ -2,6 +2,10 @@
 <html>
     <head>
 <title>This is nimah's CV </title>
+<link href="CV-Styles.css" rel="stylesheet"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
 
     </head>
 
@@ -9,14 +13,14 @@
         <!--Heading-->
         <header>
 
-        <h2>Nimah Abdurrahman</h2>
-        <h4>Softwares/Project Management</h4>
+        <h2 class="h-head">Nimah Abdurrahman</h2>
+        <h4 class="h-title">Softwares/Project Management</h4>
         
         
 
        </header>
        <nav>
-        <ul>
+        <ul class="p-write">
             <li><a href="#contact">Contact</a></li>
             <li><a href="#summary">Summary</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -27,9 +31,9 @@
        <article>
         <header>
             <hr/>
-            <h3>Summary</h3>
+            <h3 class="h-head">Summary</h3>
         </header>
-        <p>This is a resume that aims at introducing my skills 
+        <p class="p-write">This is a resume that aims at introducing my skills 
             in frontend software development<em> (and maybe backend later) </em>and to document
              my journey as i learn with the hope of building apps and exploring the opportunities within the industry. I think
              cats are lovely too, say hello to <em> <a href="cute=cat2.jpg">coffee</a></em>. </p>
@@ -40,11 +44,12 @@
         <main>
             <section id="skills">
                 
-                <h3>Skills</h3>
-                <ol>
+                <h3 class="h-head">Skills</h3>
+                <ol class="p-write">
                     <li>Git</li>
                     <li>Github</li>
                     <li>HTML</li>
+                    <li>CSS</li>
                 </ol>
             </section>
 
@@ -53,19 +58,20 @@
 
             <section id="Experience">
                 
-                <h3>Experience</h3>
-                <p>Dowloading and installation of Git on macOS and windows</p>
-                <p>Creating repositories remotely and pushing it to Github</p>
-                <p>innovating personal profile through the use of HTML</p>
+                <h3 class="h-head">Experience</h3>
+                <p class="p-write">Dowloading and installation of Git on macOS and windows</p>
+                <p class="p-write">Creating repositories remotely and pushing it to Github</p>
+                <p class="p-write">innovating personal profile through the use of HTML</p>
+                <p class="p-write">Design of webpage and personal using CSS</p>
             </section>
 
 
             <hr/>
             <section id="Education">
                 
-                <h3>Education</h3>
-                <p><a href="#semi">SemiColon School</a></p>
-                <p>Self Study <em>(previously)</em></p>
+                <h3 class="h-head">Education</h3>
+                <p><a href="#semi"  class="p-write">SemiColon School</a></p>
+                <p class="p-write">Self Study <em>(previously)</em></p>
                 
             </section>
            </main>
@@ -73,28 +79,33 @@
             <hr/>
         
         <!-- forms -->
-         <h4><em>Send in your enquiries and a shoutout to coffee<em></em></h4>
+         <h4 class="h-head"><em>Send in your enquiries and a shoutout to coffee<em></em></h4>
+         <div id="my-cat-link">
+
+         <a href="https://www.google.com/cats/#aicat" target="_blank">
 
             <img src="cute-cat2.jpg" width="500"/>
+         </a>
+        </div>
 
         <form action="nothing for now,it's a backend stuff">
-          <div>
+          <div class="p-write">
             <label for="name">Name</label>
             <input type="text" placeholder="Enter your name"/>
           </div>
 
          <div>
 
-            <label for="email">Email Address</label>
+            <label for="email" class="p-write">Email Address</label>
             <input type="email" placeholder="Enter your email address" />
           </div>
 
-         <div>
+         <div class="p-write">
             <label for="company">Company</label>
             <input type="text" placeholder="Enter your Company Name"/>
          </div>
 
-         <div>
+         <div class="p-write">
             <label for="company-size">Company Size</label>
             <select>
                 <option>1-5</option>
@@ -104,16 +115,16 @@
             </select>
          </div>
 
-         <div>
+         <div class="p-write">
             <label for="start-date">When did you start your company</label>
             <input type="date"/>
          </div>
 
-         <div>
+         <div class="p-write">
             <label for="message">Message</label>
             <textarea></textarea>
          </div>
-         <input type="submit" />
+         <input type="submit" class="p-write" />
 
          </form>
 
